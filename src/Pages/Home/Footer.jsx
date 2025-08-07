@@ -49,6 +49,19 @@ function Footer() {
                 About Me
               </Link>
             </li>
+                        <li>
+              <Link
+                activeClass="navbar--active-content"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                to="Contact"
+                className="text-md"
+              >
+                Experience
+              </Link>
+            </li>
             {/* <li>
               <Link
                 activeClass="navbar--active-content"
@@ -62,6 +75,7 @@ function Footer() {
                 Testimonials
               </Link>
             </li> */}
+            
           </ul>
         </div>
         <div className="footer--social--icon">
