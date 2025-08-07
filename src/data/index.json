@@ -1,0 +1,136 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "title": "Languages",
+      "stackIcons": [
+        "./img/Python.png", "./img/JavaScript.png", "./img/TypeScript.png",
+        "./img/PHP.png", "./img/HTML5.png", "./img/CSS3.png", "./img/GraphQL.png"
+      ]
+    },
+    {
+      "id": "2",
+      "src": "./img/tag-1.png",
+      "title": "Frameworks & Libraries",
+      "stackIcons": [
+        "./img/React.png", "./img/Angular.png", "./img/Node.js.png",
+        "./img/TensorFlow.png", "./img/PyTorch.png", "./img/Scikit-learn.png", "./img/Pandas.png","./img/Numpy.png","./img/Tailwind CSS.png"
+      ]
+    },
+    {
+      "id": "3",
+      "src": "./img/feather-pen-2.png",
+      "title": "Tools & Platforms",
+      "stackIcons": [
+        "./img/MongoDB.png", "./img/MySQL.png", "./img/PostgresSQL.png", "./img/Google Cloud.png", "./img/AWS.png",
+        "./img/Docker.png", "./img/Kubernetes.png", "./img/GitHub.png", "./img/Postman.png","./img/Jira.png","./img/Figma.png","./img/Canva.png"
+      ]
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/Handwritten.png",
+      "title": "Handwriting Text Recognition",
+      "description": "A deep learning-based application that recognizes and converts handwritten text into digital format using image processing techniques",
+      "link": "https://github.com/ShalakaSonawane1/Handwritten-Text-Recognition"
+    },
+    {
+      "id": "2",
+      "src": "./img/Stock.png",
+      "title": "Stock Market - Web App",
+      "description": "A responsive web application that enables real-time stock tracking, portfolio management, sentiment analysis, and financial insights to enhance user experience and support data-driven investment decisions",
+      "link": "https://github.com/ShalakaSonawane1/Stock-Search"
+    },
+    {
+      "id": "3",
+      "src": "./img/Food.png",
+      "title": "Food Ordering System",
+      "description": "A dynamic web-based food ordering platform enabling users to browse menus, place orders, and manage carts in real time",
+      "link": "https://github.com/ShalakaSonawane1/Food-Ordering-System"
+    },
+    {
+      "id": "4",
+      "src": "./img/placeholder-image-2.png",
+      "title": "Event-Ease",
+      "description": "An end-to-end event management web app that allows users to create, browse, and register for events with a user-friendly interface",
+      "link": "https://github.com/ShalakaSonawane1/Event-Ease"
+    },
+    {
+      "id": "5",
+      "src": "./img/RFID.png",
+      "title": "RFID Healthcare Card",
+      "description": "A smart healthcare card system using RFID technology to securely store and retrieve patient medical data for quick access during emergencies",
+      "link": "https://github.com/ShalakaSonawane1/RFID_HealthcareCard"
+    },
+        {
+      "id": "6",
+      "src": "./img/College.png",
+      "title": "College Predictor",
+      "description": "A Java application that predicts potential college admissions based on user academic input and historical cutoff data",
+      "link": "https://github.com/ShalakaSonawane1/College_Predictor"
+    },
+        {
+      "id": "7",
+      "src": "./img/SmartDustbin.png",
+      "title": "Smart Dustbin",
+      "description": "An IoT-based smart dustbin using sensors and C++ to automate lid movement and monitor waste levels for efficient disposal management",
+      "link": "https://github.com/ShalakaSonawane1/SmartDustbin"
+    }
+  ],
+  "experience": [
+  {
+    "title": "Software Engineer Intern (IT Operations)",
+    "org": "Tarsus Pharmaceuticals",
+    "date": "May 2024 - August 2024",
+    "description": "Developed internal web applications and RESTful APIs to automate IT asset management workflows, reducing manual tracking errors by 30%. I also restructured the Configuration Management Database (CMDB) with improved data models and implemented real-time Power BI dashboards with built-in alerting mechanisms, which increased asset tracking accuracy by 25% and sped up incident response. Additionally, I conducted API testing and debugging using Postman, performed QA validation for backend integrations and data flows, and collaborated with cross-functional teams to ensure smooth, reliable deployments.",
+    "stackIcons": [
+      "./img/Python.png",
+      "./img/Power BI.png",
+      "./img/FastAPI.png",
+      "./img/Postman.png"
+    ]
+  },
+    {
+    "title": "Web Developer Intern",
+    "org": "AxTechnosoft",
+    "date": "January 2023 - May 2023",
+    "description": "Delivered dynamic, responsive, and reusable React components using Bootstrap, ensuring cross-browser compatibility and accessibility aligned with WCAG guidelines, which led to a 35% improvement in site performance. I integrated RESTful APIs and managed asynchronous data flows using Axios, working closely with designers and fellow developers to deliver a seamless user experience that boosted user engagement by 20%. I also contributed to code quality and maintainability by implementing modular UI patterns, conducting code reviews, and enforcing consistency through tools like Prettier and Chrome DevTools audits.",
+    "stackIcons": [
+      "./img/React.png",
+      "./img/Bootstrap.png",
+      "./img/HTML5.png",
+      "./img/CSS3.png",
+      "./img/GitHub.png",
+      "./img/JavaScript.png"
+    ]
+  }
+],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Dianne Russel",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kristin Watson",
+      "author_designation": "Louis Vuitton"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kathryn Murphy",
+      "author_designation": "McDonald's"
+    }
+  ]
+}
