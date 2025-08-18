@@ -31,52 +31,59 @@
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/Handwritten.png",
+      "src": "./img/Handwritten2.png",
       "title": "Handwriting Text Recognition",
       "description": "A deep learning-based application that recognizes and converts handwritten text into digital format using image processing techniques",
       "link": "https://github.com/ShalakaSonawane1/Handwritten-Text-Recognition"
     },
     {
       "id": "2",
+      "src": "./img/College2.png",
+      "title": "College Predictor",
+      "description": "A Java application that predicts potential college admissions based on user academic input and historical cutoff data",
+      "link": "https://github.com/ShalakaSonawane1/College_Predictor"
+    },
+    {
+      "id": "3",
+      "src": "./img/RFID2.png",
+      "title": "RFID Healthcare Card",
+      "description": "A smart healthcare card system using RFID technology to securely store and retrieve patient medical data for quick access during emergencies",
+      "link": "https://github.com/ShalakaSonawane1/RFID_HealthcareCard"
+    },
+    {
+      "id": "4",
+      "src": "./img/SmartDustbin.png",
+      "title": "Smart Dustbin",
+      "description": "An IoT-based smart dustbin using sensors and C++ to automate lid movement and monitor waste levels for efficient disposal management",
+      "link": "https://github.com/ShalakaSonawane1/SmartDustbin"
+    },
+    {
+      "id": "5",
       "src": "./img/Stock.png",
       "title": "Stock Market - Web App",
       "description": "A responsive web application that enables real-time stock tracking, portfolio management, sentiment analysis, and financial insights to enhance user experience and support data-driven investment decisions",
       "link": "https://github.com/ShalakaSonawane1/Stock-Search"
     },
     {
-      "id": "3",
+      "id": "6",
       "src": "./img/Food.png",
       "title": "Food Ordering System",
       "description": "A dynamic web-based food ordering platform enabling users to browse menus, place orders, and manage carts in real time",
       "link": "https://github.com/ShalakaSonawane1/Food-Ordering-System"
     },
     {
-      "id": "4",
+      "id": "7",
       "src": "./img/placeholder-image-2.png",
       "title": "Event-Ease",
       "description": "An end-to-end event management web app that allows users to create, browse, and register for events with a user-friendly interface",
       "link": "https://github.com/ShalakaSonawane1/Event-Ease"
     },
     {
-      "id": "5",
-      "src": "./img/RFID.png",
-      "title": "RFID Healthcare Card",
-      "description": "A smart healthcare card system using RFID technology to securely store and retrieve patient medical data for quick access during emergencies",
-      "link": "https://github.com/ShalakaSonawane1/RFID_HealthcareCard"
-    },
-        {
-      "id": "6",
-      "src": "./img/College.png",
-      "title": "College Predictor",
-      "description": "A Java application that predicts potential college admissions based on user academic input and historical cutoff data",
-      "link": "https://github.com/ShalakaSonawane1/College_Predictor"
-    },
-        {
-      "id": "7",
-      "src": "./img/SmartDustbin.png",
-      "title": "Smart Dustbin",
-      "description": "An IoT-based smart dustbin using sensors and C++ to automate lid movement and monitor waste levels for efficient disposal management",
-      "link": "https://github.com/ShalakaSonawane1/SmartDustbin"
+      "id": "8",
+      "src": "./img/CareerLens.png",
+      "title": "CareerLens",
+      "description": "AI-powered career coaching platform that generate personalized insights, resumes, cover letters, and interview preparation tools for job seekers.",
+      "link": "https://github.com/ShalakaSonawane1/CareerLens"
     }
   ],
   "experience": [
