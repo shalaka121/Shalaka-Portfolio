@@ -38,10 +38,15 @@ export default function MyPortfolio() {
         </div>
         <div>
           <a
-            className="btn btn-github"
-            href="https://github.com/ShalakaSonawane1"
-            target="_blank"
-            rel="noopener noreferrer"
+            // className="btn btn-github"
+            // href="https://github.com/ShalakaSonawane1"
+            // target="_blank"
+            // rel="noopener noreferrer"
+              href="https://github.com/ShalakaSonawane1"
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-github"
+              aria-label="Visit my GitHub profile"
           >
             Visit My GitHub
           </a>

@@ -90,7 +90,7 @@ export default function MySkills() {
             {item.stackIcons?.map((icon, i) => (
               <div className="icon--wrapper" key={i}>
                 <img src={icon} alt="tech" />
-                <span className="tooltip">
+                <span className="tooltip" >
                   {icon.split("/").pop().split(".")[0]}
                 </span>
               </div>

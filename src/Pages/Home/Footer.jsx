@@ -8,7 +8,7 @@ function Footer() {
         {/* <div>
           <img src="./img/logo.svg" alt="Logoipsum" />
         </div> */}
-        <div className="footer--items">
+        {/* <div className="footer--items">
           <ul>
             <li>
               <Link
@@ -61,23 +61,9 @@ function Footer() {
               >
                 Experience
               </Link>
-            </li>
-            {/* <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="testimonial"
-                className="text-md"
-              >
-                Testimonials
-              </Link>
-            </li> */}
-            
+            </li>  
           </ul>
-        </div>
+        </div> */}
         <div className="footer--social--icon">
           <ul>
             <li>

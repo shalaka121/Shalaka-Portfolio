@@ -639,7 +639,7 @@ h2 {
   display: flex;
   padding: 60px 85px;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   background: var(--bg-shade);
   align-items: center;
   align-self: stretch;
@@ -653,7 +653,7 @@ h2 {
 .footer--items > ul {
   list-style: none;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 42.667px;
   text-decoration: none;
 }
@@ -876,3 +876,154 @@ h2 {
 }
 
 /* Responsive Screens Ends*/
+
+/* ==== Mobile-first fixes & enhancements (<= 768px) ==== */
+@media only screen and (max-width: 768px) {
+  html, body {
+    overflow-x: hidden;
+  }
+
+  .navbar {
+    padding: 12px 20px;
+  }
+
+  .btn {
+    padding: 12px 18px;
+    font-size: 15px;
+  }
+
+  h1 { font-size: 28px; line-height: 36px; }
+  h2 { font-size: 24px; line-height: 30px; }
+  .text-lg { font-size: 16px; line-height: 24px; }
+  .text-md { font-size: 14px; line-height: 22px; }
+
+  /* Hero */
+  .hero--section {
+    padding: 80px 20px 40px;
+    gap: 24px;
+  }
+  .hero--section--title { font-size: 34px; line-height: 42px; }
+  .hero--section-description { font-size: 16px; line-height: 24px; }
+
+  /* About */
+  .about--section {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 28px;
+  }
+  .about--section--img > img {
+    max-height: 260px;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+
+  /* Skills */
+  .skills--section {
+    padding: 40px 20px;
+  }
+  .skills--cards--container {
+    justify-content: center;
+  }
+  .skills--section--card {
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+    padding: 24px 16px;
+  }
+  .skills--section--card:hover {
+    transform: none;              /* avoid layout jump on mobile */
+    border-bottom-width: 0;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  }
+  .skills--section--card--content {
+    gap: 24px;
+  }
+  .stack--icons img { width: 44px; height: 44px; }
+
+  /* Portfolio */
+  .portfolio--section {
+    padding: 40px 20px;
+  }
+  .portfolio--container-box {
+    gap: 16px;
+    align-items: flex-start;
+  }
+  .portfolio--carousel-wrapper {
+    overflow-x: auto;           /* enable swipe */
+  }
+  .portfolio--scroll-track {
+    gap: 20px;
+    animation: none;            /* let user control scroll on mobile */
+  }
+  .portfolio--carousel-wrapper::-webkit-scrollbar { display: none; }
+.portfolio--carousel-wrapper { -ms-overflow-style: none; scrollbar-width: none; }
+  .portfolio--section--card {
+    flex: 0 0 85%;
+    margin: 10px 0;
+  }
+  .portfolio--section--img > img {
+    height: 200px;
+    object-fit: contain;
+  }
+
+/* Experience — one full card visible, start at the left */
+.experience--section {
+  padding: 40px 0;
+}
+
+/* 🔧 Key fixes here: undo centering + set scroll padding */
+.experience--cards--wrapper {
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x mandatory;
+
+  /* start at the very left, not centered */
+  justify-content: flex-start !important;
+  margin: 0 !important;
+
+  /* swipe comfort + correct first snap */
+  padding-inline: 16px;
+  scroll-padding-left: 16px;
+
+  gap: 0; /* spacing comes from card width calc */
+}
+
+/* Each card fills the viewport minus wrapper side padding */
+.experience--card {
+  flex: 0 0 calc(100% - 32px);
+  width: calc(100% - 32px);
+  margin: 0 !important;             /* kill any global margins */
+  box-sizing: border-box;
+  padding: 20px;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+/* Add a small gap between cards */
+.experience--card + .experience--card {
+  margin-left: 16px !important;
+}
+
+/* Optional: hide scrollbar */
+.experience--cards--wrapper::-webkit-scrollbar { display: none; }
+.experience--cards--wrapper { -ms-overflow-style: none; scrollbar-width: none; }
+
+
+
+  /* Footer */
+  .footer--container {
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+
+  /* Navbar dropdown spacing tweaks */
+  .navbar{
+    min-height: 30px;
+  }
+  .navbar--items.active { top: 56px; }
+  .navbar--items ul { padding-top: 1rem; }
+}
